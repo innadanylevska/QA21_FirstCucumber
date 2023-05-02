@@ -32,7 +32,7 @@ public class LoginPageSteps {
     public void enters_valid_a_wrong_password(DataTable table){//iz LoginPage i login.features
         new LoginPage(driver).enterWrongPassword(table);
     }
-
+//comment
     @Then("User Verifies Alert is appears")
     public void verify_Alert_appears(){
         new LoginPage(driver).pause(2000);
