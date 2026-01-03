@@ -23,3 +23,31 @@ src/test/java/com/ait/stepDefinitions/        → Step definitions
 src/test/java/com/ait/TestRunner.java         → Test runner
 
  
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/innadanylevska/QA21_FirstCucumber.git
+   
+   Navigate to the project folder.
+Run the tests:bash
+
+./gradlew clean test
+
+(or gradlew.bat clean test on Windows)
+Cucumber reports will be generated in build/reports/tests/ or target/cucumber-reports/.
+
+Planned Improvements
+
+Add Hooks for WebDriver initialization and cleanup.
+Enhance Cucumber HTML reports.
+Add tags (@smoke
+, @regression
+).
+Set up GitHub Actions for CI/CD.
+
+Thank you for checking out my project! This is my first automation framework 
+
+
+
+
+
